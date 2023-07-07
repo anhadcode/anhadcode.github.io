@@ -39,7 +39,7 @@ profile_pic= Image.open("profile-pic.png")
 
 
 # MAIN SECTION
-
+st.title("Anhad Singh Bhatia")
 col1, col2= st.columns([1.5,3.5])
 
 
@@ -49,8 +49,8 @@ with col1:
     st.image(profile_pic, use_column_width=True, output_format='JPEG')
 
 with col2:
-    st.title(NAME)
-    st.write("Aspring Data Scientist")
+    #st.title(NAME)
+    st.write("Anhad is an aspiring Data Scientist, who is passionate about Machine Learning and has a decent knowledge of programming and Mathematics.")
     st.download_button(
         label="Download Resume 📄",
         data=PDFbyte,
