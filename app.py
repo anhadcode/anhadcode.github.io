@@ -39,7 +39,7 @@ profile_pic= Image.open("profile-pic.png")
 
 
 # MAIN SECTION
-"# Anhad Singh Bhatia"
+st.header(NAME)
 col1, col2= st.columns([1.5,3.5])
 
 
