@@ -100,7 +100,7 @@ st.write(f"""
 - **Netflix Dashboard** using *[Tableau]*
 - **Myntra Dashboard** using *[Power BI]*
 - **Handwritten Digits Recognition** using *[Python: Scikit-Learn, pandas, and numpy]*
-- **IPL Win prediction** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
+- **[IPL Win prediction](https://ipl-win-predictor-7c8i.onrender.com/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
 - **Salary Prediction** using *[Python: Scikit-Learn, and Pandas | Algorithm: **KNN classification**]*
 - [Flight Prediction](https://flightticketprediction-pxp4bf53l7.streamlit.app/)
 """)
