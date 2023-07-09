@@ -96,13 +96,13 @@ for i, element in enumerate(element):
     """)
 
 st.subheader("Projects and work")
-st.write("""
+st.write(f"""
 - **Netflix Dahsboard** using *[Tableau]*
 - **Myntra Dashboard** using *[Power BI]*
 - **Handwritten Digits Recognition** using *[Python: Scikit-Learn, pandas, and numpy]*
 - **IPL Win prediction** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
 - **Salary Prediction** using *[Python: Scikit-Learn, and Pandas | Algorithm: **KNN classification**]*
-
+- [{Flight Prediction}(https://flightticketprediction-pxp4bf53l7.streamlit.app/)]
 """)
 st.subheader("Experience")
 st.write("""
