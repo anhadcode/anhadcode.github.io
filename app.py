@@ -97,6 +97,7 @@ for i, element in enumerate(element):
 
 st.subheader("Projects and work")
 st.write(f"""
+- **[Movie Recommender System](https://movierecommender-1xzibkj1icfh.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Content Based Filtering**]*
 - **Netflix Dashboard** using *[Tableau]*
 - **Myntra Dashboard** using *[Power BI]*
 - **Handwritten Digits Recognition** using *[Python: Scikit-Learn, pandas, and numpy]*
