@@ -74,7 +74,7 @@ st.write("#")
 st.subheader("Education Qualification")
 st.write(f"""
 #### BSc Physics (Hons): University of Delhi
-- Scientific Computation with Python
+- **Scientific Computation with Python**
 - Mathematical Physics
 - Algorithm building 
 #### Certication Data Analytics: YMCA Delhi
