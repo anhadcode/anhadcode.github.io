@@ -71,17 +71,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 ###EXPERIENCE
 
 st.write("#")
-st.subheader("Education Qualification")
-st.write(f"""
-#### BSc Physics (Hons): University of Delhi
-- **Scientific Computation with Python**
-- Mathematical Physics
-- Algorithm building 
-#### Certication Data Analytics: YMCA Delhi
-- Statistics, and Microsoft Access
-#### Certification Data Analytics: SSCBS University of Delhi
-- Advanced Statistics for Data Analytics, Business Intelligence and Machine Learning 
-""")
+
 
 st.subheader("Tools and Skills")
 columns = st.columns(4)
