@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 current_dir= Path(__file__).parent if "__file_" in locals() else Path.cwd()
-css_file= current_dir/ "styles" / "main.css"
+css_file= current_dir/ "main.css"
 
 # General settings
 
