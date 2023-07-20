@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 current_dir= Path(__file__).parent if "__file_" in locals() else Path.cwd()
-css_file= current_dir/ "main.css"
+css_file= current_dir/ "styles" / "main.css"
 
 # General settings
 
@@ -36,12 +36,12 @@ with open("DataAnalystResume.pdf", "rb") as pdf_file:
 
 profile_pic= Image.open("profile-pic.png")
 
+st.title(NAME)
 
 
 # MAIN SECTION
-st.header(NAME)
-col1, col2= st.columns([1.5,3.5])
 
+col1, col2= st.columns([1.5,3.5])
 
 with col1:
     profile_pic= Image.open("profile-pic.png")
@@ -49,8 +49,7 @@ with col1:
     st.image(profile_pic, use_column_width=True, output_format='JPEG')
 
 with col2:
-    #st.title(NAME)
-    st.write("""**_Get me data, I will get you good decision_**"")
+    st.write("#### '**_Get me Data, I'll get you good Decisions_**' ")
     st.write("Anhad is an aspiring Data Scientist, who is passionate about Machine Learning and has a decent knowledge of programming and Mathematics.")
     st.download_button(
         label="Download Resume 📄",
@@ -71,7 +70,19 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 ###EXPERIENCE
 
 st.write("#")
-
+st.subheader("Education Qualification")
+st.write(
+    """
+#### BSc Physics (Hons): University of Delhi
+- Scientific Computation with Python
+- Mathematical Physics
+- Algorithm building 
+#### Certication Data Analytics: YMCA Delhi
+- Statistics, and Microsoft Access
+#### Certification Data Analytics: SSCBS University of Delhi
+- Advanced Statistics for Data Analytics, Business Intelligence and Machine Learning
+    """
+)
 
 st.subheader("Tools and Skills")
 columns = st.columns(4)
@@ -87,15 +98,16 @@ for i, element in enumerate(element):
 st.subheader("Projects and work")
 st.write(f"""
 - **[Movie Recommender System](https://movierecommender-1xzibkj1icfh.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Content Based Filtering**]*
-- **Netflix Dashboard** using *[Tableau]*
-- **Myntra Dashboard** using *[Power BI]*
 - **Handwritten Digits Recognition** using *[Python: Scikit-Learn, pandas, and numpy]*
 - **[IPL Win prediction](https://ipl-win-predictor-7c8i.onrender.com/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
 - **Salary Prediction** using *[Python: Scikit-Learn, and Pandas | Algorithm: **KNN classification**]*
 - **[Flight Prediction](https://flightticketprediction-pxp4bf53l7.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Random Forest Regression**]*
 - **[Employee Promotion Predictor](https://employee-promotion.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
-
+- **Netflix Dashboard** using *[Tableau]*
+- **Myntra Dashboard** using *[Power BI]*
 """)
+
+
 st.subheader("Experience")
 st.write("""
 #### Capline Services [Aug 2022- Jan 2023]
