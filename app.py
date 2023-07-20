@@ -50,6 +50,7 @@ with col1:
 
 with col2:
     #st.title(NAME)
+    st.write("""**_Get me data, I will get you good decision_**"")
     st.write("Anhad is an aspiring Data Scientist, who is passionate about Machine Learning and has a decent knowledge of programming and Mathematics.")
     st.download_button(
         label="Download Resume 📄",
@@ -103,7 +104,9 @@ st.write(f"""
 - **Handwritten Digits Recognition** using *[Python: Scikit-Learn, pandas, and numpy]*
 - **[IPL Win prediction](https://ipl-win-predictor-7c8i.onrender.com/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
 - **Salary Prediction** using *[Python: Scikit-Learn, and Pandas | Algorithm: **KNN classification**]*
-- [Flight Prediction](https://flightticketprediction-pxp4bf53l7.streamlit.app/)
+- **[Flight Prediction](https://flightticketprediction-pxp4bf53l7.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Random Forest Regression**]*
+- **[Employee Promotion Predictor](https://employee-promotion.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
+
 """)
 st.subheader("Experience")
 st.write("""
