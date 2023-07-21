@@ -49,7 +49,7 @@ with col1:
     st.image(profile_pic, use_column_width=True, output_format='JPEG')
 
 with col2:
-    st.write("#### '**_Get me Data, I'll get you good Decisions_**' ")
+    st.write("#### '**_Get me data, and I'll give you a good decision._**' ")
     st.write("Anhad is an aspiring Data Scientist, who is passionate about Machine Learning and has a decent knowledge of programming and Mathematics.")
     st.download_button(
         label="Download Resume 📄",
