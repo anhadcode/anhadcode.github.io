@@ -99,7 +99,7 @@ st.subheader("Projects and work")
 st.write(f"""
 - **[Movie Recommender System](https://movierecommender-1xzibkj1icfh.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Content Based Filtering**]*
 - **Handwritten Digits Recognition** using *[Python: Scikit-Learn, pandas, and numpy]*
-- **[IPL Win prediction](https://ipl-win-predictor-7c8i.onrender.com/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
+- **[IPL Win prediction](https://iplwinpredictor-zmzgnkdmjdc.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
 - **Salary Prediction** using *[Python: Scikit-Learn, and Pandas | Algorithm: **KNN classification**]*
 - **[Flight Prediction](https://flightticketprediction-pxp4bf53l7.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Random Forest Regression**]*
 - **[Employee Promotion Predictor](https://employee-promotion.streamlit.app/)** using *[Python: Scikit-Learn, Pandas and Numpy | Algorithm: **Logistic Regression**]*
